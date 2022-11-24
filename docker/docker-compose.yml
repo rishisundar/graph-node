@@ -20,7 +20,7 @@ services:
       postgres_db: graph-node
       ipfs: 'ipfs:5001'
       ethereum: 'mainnet:https://rpc.ankr.com/eth'
-      ETHEREUM_START_BLOCK: '16019721'
+      ETHEREUM_START_BLOCK: '16037000'
       GRAPH_LOG: info
   ipfs:
     image: ipfs/go-ipfs:v0.10.0
